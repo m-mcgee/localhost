@@ -4,21 +4,21 @@ host3 = User.create(email: "host3@host3.com", password: "password", name: "Host3
 host4 = User.create(email: "host4@host4.com", password: "password", name: "Host4", homebase: "Austin", host: true)
 host5 = User.create(email: "host5@host5.com", password: "password", name: "Host5", homebase: "Austin", host: true)
 host6 = User.create(email: "host6@host6.com", password: "password", name: "Host6", homebase: "Austin", host: true)
-test = User.create(email: "test@test.com", password: "password", name: "Test", homebase: "Austin")
 
 
-Category.create(title: "Art", description: "Local art tours")
-Category.create(title: "Music", description: "Music around town")
-Category.create(title: "Food & Drink", description: "Grab a bite or a pint")
-Category.create(title: "Nightlife", description: "Take a night out on the town")
-Category.create(title: "Fashion", description: "Hit the best shopping spots in the city")
-Category.create(title: "Outdoors", description: "Get some fresh air")
-Category.create(title: "Events", description: "Events around town")
-Category.create(title: "Sports", description: "Root for the home team")
-Category.create(title: "History", description: "")
+cat = Category.new(title: "Art", description: "Local art tours", avatar: File.new("/#{Rails.root}/public/images/art.jpg"))
+binding.pry
+# Category.create(title: "Music", description: "Music around town", avatar: 'images/art')
+# Category.create(title: "Food & Drink", description: "Grab a bite or a pint", avatar: 'images/art')
+# Category.create(title: "Nightlife", description: "Take a night out on the town", avatar: 'images/art')
+# Category.create(title: "Fashion", description: "Hit the best shopping spots in the city", avatar: 'images/art')
+# Category.create(title: "Outdoors", description: "Get some fresh air", avatar: 'images/art')
+# Category.create(title: "Events", description: "Events around town", avatar: 'images/art')
+# Category.create(title: "Sports", description: "Root for the home team", avatar: 'images/art')
+# Category.create(title: "History", description: "")
 
 #host 1 cats: art and food
-UserCategory.create(host_id: 1, category_id: 1)
+UserCategory.create!(host_id: 1, category_id: "")
 UserCategory.create(host_id: 1, category_id: 3)
 Tag.create(specialty: "Ancient Greek", category_id: 1)
 Tag.create(specialty: "Dive bars", category_id: 3)

@@ -57,4 +57,6 @@ Rails.application.configure do
   # Include Bootstrap glyphicons
   config.assets.precompile << %r(vendor/assets/fonts/[\w-]+\.(?:eot|svg|ttf|woff2?)$)
 
+  Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
+
 end
