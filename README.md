@@ -11,7 +11,7 @@ ___
 
 ##Categories auto-load on click using AJAX and JQuery.
 
-![Tour categories](readme-assets/categories.png)
+![Tour categories](categories.png)
 
 ##Click a category to see a list of hosts who live in that city and specialize in that tour category. Contact the host to arrange a booking.
 
