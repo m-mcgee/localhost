@@ -7,7 +7,7 @@ This project is live on Heroku: https://mysterious-badlands-77198.herokuapp.com/
 ___
 ##On the landing page, select one of the cities from a drop-down list.
 
-![Homepage View](readme-assets/home.png)
+![Homepage View](home.png)
 
 ##Categories auto-load on click using AJAX and JQuery.
 
@@ -15,19 +15,19 @@ ___
 
 ##Click a category to see a list of hosts who live in that city and specialize in that tour category. Contact the host to arrange a booking.
 
-![List of host profiles](readme-assets/hosts.png)
+![List of host profiles](hosts.png)
 
 ##A host can schedule the booking from their profile page.
 
-![Host profile view](readme-assets/bio.png)
+![Host profile view](bio.png)
 
 ##A view of a booking using the Google Maps API for the map.
 
-![Single booking view](readme-assets/booking.png)
+![Single booking view](booking.png)
 
 ##A host can see their bookings, reviews, and trips if they too want to travel!
 
-![Single booking view](readme-assets/bookings-reviews.png)
+![Single booking view](bookings-reviews.png)
 
 ___
 ### Team
