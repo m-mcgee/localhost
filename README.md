@@ -1,5 +1,35 @@
 # LocalHost
 ___
+### Dev Bootcamp Final Project, November 28 - December 3, 2016
+When traveling solo to a new destination, visitors can be overwhelmed by their new environment. LocalHost connects area hosts, who specialize in categories like 'Art', 'Music', or 'Food & Drink', to visitors looking for someone to show them around.
+
+This project is live on Heroku: https://mysterious-badlands-77198.herokuapp.com/
+___
+##On the landing page, select one of the cities from a drop-down list.
+
+![Homepage View](readme-assets/home.png)
+
+##Categories auto-load on click using AJAX and JQuery.
+
+![Tour categories](readme-assets/categories.png)
+
+##Click a category to see a list of hosts who live in that city and specialize in that tour category. Contact the host to arrange a booking.
+
+![List of host profiles](readme-assets/hosts.png)
+
+##A host can schedule the booking from their profile page.
+
+![Host profile view](readme-assets/bio.png)
+
+##A view of a booking using the Google Maps API for the map.
+
+![Single booking view](readme-assets/booking.png)
+
+##A host can see their bookings, reviews, and trips if they too want to travel!
+
+![Single booking view](readme-assets/bookings-reviews.png)
+
+___
 ### Team
 - [Matt McGee](https://github.com/m-mcgee)
 - [Sarah Dickerson](https://github.com/vernistage)
@@ -7,28 +37,3 @@ ___
 
 [trello](https://trello.com/b/PxoFv29m/localhost)
 
-___
-
-### Contributing 
-1. Pull down master
-2. Create a feature branch with an appropriate name for the feature you're working on
-3. Commit frequently to your feature branch as you work
-4. Once complete, push your branch to github and create a pull request
-
-### Reviewing pull requests
-###### Pull requests must be reviewed by team before merging
-1. Review the code to ensure it won't conflict with any of your previous work
-    - If there are any errors/items to be addressed, tag the author of the pull request with a message on what to correct
-    - Otherwise, leave a comment with your name to mark your review as complete
-2. If you are the second person to mark a pull request as complete, you can merge the pull request with master.
-
-___
-
-### MVP for Monday
-1. Routing and Views for all pages
-2. Functionality
-    - Creating a host profile with catetory "expertise" tagging
-    - Filtering hosts by Location and Category (homepage search)
-    - Creating bookings
-    - Reviewing a booking
-    - Listing reviews for a host
